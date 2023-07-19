@@ -31,14 +31,10 @@ class View {
   }
 
   setupBoard() {
-    // const $outer_ul = $("<ul>")
     const $ul = $('<ul>');
-    // for (let i = 0; i < 3; i++) {
       for ( let j = 0; j < 9; j ++) {
         $ul.append($('<li>'));
       }   
-      // $outer_ul.append($ul);
-    // }
 
     this.$el.append($ul);
   }

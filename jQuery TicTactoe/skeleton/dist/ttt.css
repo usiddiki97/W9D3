@@ -1,0 +1,51 @@
+html, body, figure, figcaption, ul, li, h1 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    text-align: inherit;
+    background: transparent;
+}
+
+body {
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+h1{
+    font-size: 60px;
+    margin: 30px;
+}
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    padding: 0;
+    margin: 30px auto;
+    border: 5px solid black;
+    list-style: none;
+}
+
+.cell {
+    border: 5px solid black;
+    width: 90px;
+    height: 90px;
+    background-color: gray;
+}
+
+.cell:hover {
+    background: yellow;
+    cursor: pointer;
+}
+
+.clicked {
+     background: white;
+}
+
+.x {
+    color: black;
+}
+.x:after {
+    content: "x";
+}
